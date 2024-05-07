@@ -22,8 +22,8 @@ To install the Discord updater script, follow these steps:
      ```
 	 
 
-4. **Log Out and Log Back In**:
-   - After installation is complete, log out of your user account and then log back in.
+3. **After installing**:
+   - After installation is complete, you can now delete the downloaded files.
    - The Discord updater script will now run automatically whenever you log in, ensuring that Discord stays up to date.
 
 ## Usage
