@@ -30,7 +30,7 @@ Once installed, the Discord updater script will run automatically in the backgro
 
 ## Uninstallation
 
-To uninstall the Discord updater script, simply delete the `~/bin/discord_update.sh` file and remove the `~/.config/autostart/discord_updater.desktop` desktop entry.
+To uninstall the Discord updater script, simply delete the `~/bin/update_discord.sh` file and remove the `~/.config/autostart/discord_updater.desktop` desktop entry.
 
 ## Contributing
 
