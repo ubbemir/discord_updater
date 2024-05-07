@@ -35,7 +35,3 @@ To uninstall the Discord updater script, simply delete the `~/bin/update_discord
 ## Contributing
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on GitHub.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md).
