@@ -29,6 +29,7 @@ To install the Discord updater script, follow these steps:
 ## Usage
 
 Once installed, the Discord updater script will run automatically in the background whenever you log in to your Ubuntu system. You do not need to manually run the script.
+When a Discord update is ready to be installed, a terminal window will appear upon login, prompting you to enter your password.
 
 ## Uninstallation
 
