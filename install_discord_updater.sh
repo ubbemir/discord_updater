@@ -1,6 +1,6 @@
 #!/bin/bash
 
-update_script_name = "update_discord.sh"
+update_script_name="update_discord.sh"
 
 install_discord_update_script() {
     echo "Installing Discord update script..."
