@@ -15,7 +15,7 @@ To install the Discord updater script, follow these steps:
    - Navigate to the directory where you extracted the downloaded ZIP file.
    - Run the installer script by executing the following commands:
      ```bash
-     chmod +x install_discord_updater.sh
+     chmod +x install_discord_updater.sh;
      ./install_discord_updater.sh
      ```
 	 
