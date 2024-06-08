@@ -8,6 +8,12 @@ check_update_needed() {
     current_version=$(dpkg -l | grep discord | awk '{print $3}')
     latest_version=$(wget -O "$target_file" "$update_url" 2>&1 | grep -m 1 -oP '(?<=discord-)[0-9.]+(?=.deb)')
     
+    if [[ -z "$latest_version" ]]; then
+        echo "Failed to retrieve the latest version. Exiting."
+        rm "$target_file"
+        exit 1
+    fi
+    
     if [[ "$current_version" == "$latest_version" ]]; then
         echo "Discord is already up to date. No update needed."
         rm "$target_file"
